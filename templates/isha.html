@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+
+        <h1> Om Namashivaya Namaha </h1>
+        <h2> It is located in coimbatore </h2>
+
+        <img src="{% static 'images/isha.jpg' %}" alt="" srcset=""height='500px'width='500px'>
+
+        <a href="{% url 'venkatesh:venkatesh' %}"> click here to go venkateshwara information </a>
+
+        <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+
+    </center>
+    
+    
+</body>
+</html>

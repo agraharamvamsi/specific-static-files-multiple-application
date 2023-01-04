@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+
+        <h1> Om Namo Venkatesaya </h1>
+        <h2> Tirumala Tirupati Devasthanams </h2>
+
+        <img src="{% static 'images/venkateshwara.jpg' %}" alt="" srcset=""height='500px'width='500px'>
+
+        <a href="{% url 'isha:isha' %}">click here to go isha information</a>
+
+        <link rel ="stylesheet" href="{% static 'css/c1.css' %}">
+        
+
+        </center>
+    
+</body>
+</html>
